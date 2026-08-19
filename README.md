@@ -46,7 +46,7 @@ OpenRound may ask for **location while you use the app** to sort nearby courses 
 
 ### Where does course data come from?
 
-The course directory is supplied by **[DiscGolfAPI](https://discgolfapi.com)** and ships bundled in the app so you can browse and play **offline**. DiscGolfAPI does not provide per-hole par or distance for every layout — courses may start with default values. Tap **Edit hole** (Watch: More menu) or the par edit control on iPhone while you play to update par and distance; your changes stick for future rounds on that device.
+The course directory is supplied by **[DiscGolfAPI](https://discgolfapi.com)** and ships bundled in the app so you can browse and play **offline**. 
 
 ### How do I back up my rounds?
 
@@ -58,7 +58,7 @@ On **iPhone**, use the share options after a round (scorecard image or CSV, depe
 
 ### Why don’t par or distance match the course signage?
 
-Directory courses often use **default par and distance** until you edit them. OpenRound lets you override par and distance per hole during or after a round; those overrides are saved locally for that course layout.
+DiscGolfAPI does not provide per-hole par or distance data, so holes will always start with default values (par 3 and 0 distance). Tap **Edit hole** (Watch: More menu) or the par edit control on iPhone while you play to update par and distance; your changes stick for future rounds on that device.
 
 ### Can I add a course that isn’t in the directory?
 
@@ -70,12 +70,8 @@ See **[Privacy Policy](PRIVACY.md)** for how OpenRound handles information on yo
 
 ## App Store Connect URLs
 
-If you use GitHub Pages for this repo, typical URLs are:
-
 - **Support URL:** `https://thomasRhoffmann.github.io/OpenRound-support/`
 - **Privacy Policy URL:** `https://thomasRhoffmann.github.io/OpenRound-support/PRIVACY.html`
-
-You can also link directly to this repository’s README and `PRIVACY.md` on GitHub if you prefer.
 
 ## App Store
 
